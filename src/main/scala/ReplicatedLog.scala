@@ -1,6 +1,6 @@
 import scala.collection.mutable.ArrayBuffer
 
-class ReplicatedLog [String] extends Log[String] with PersistentLog[String] {
+class ReplicatedLog [String] extends Log[String] with PersistentLog {
 
   val logEntries: ArrayBuffer[LogEntry[String]] = ArrayBuffer.empty[LogEntry[String]]
   var commitedIdx: Int = -1
