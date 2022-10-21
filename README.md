@@ -1,1 +1,2 @@
 # SimpleRaft
+A simple raft
