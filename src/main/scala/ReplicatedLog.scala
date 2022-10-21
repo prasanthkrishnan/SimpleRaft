@@ -1,4 +1,6 @@
 import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.ArrayBuffer
+
 
 class ReplicatedLog [String] extends Log[String] with PersistentLog {
 
